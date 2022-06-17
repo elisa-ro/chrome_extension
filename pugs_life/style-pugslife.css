@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    background-color: salmon;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+header{
+    background-color: goldenrod;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+header h1{
+    color:white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 50px;;
+}
+header img{
+    border-radius: 270px;
+    width: 150px;
+    border: 10px solid #8B762C;
+}
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-bottom: 30px;
+
+}
+body img{
+    max-width: 100%;
+    border-radius:100px;
+    border: 10px solid #F5781D;
+    text-align: center;
+}
+h2 {
+    font-size: 30px;
+    color: #F5781D;
+    text-shadow: 2px 2px black;
+    margin: 40px 0 10px;
+}
+
+h1, h2{
+    font-family: 'Shippori Antique', sans-serif;
+}
+a{
+    color: #7D6608;
+}
+.pugslife{
+    text-align: center;
+}
+a:hover{
+    color: aqua;
+}
+footer{
+    color:white;
+    text-align: white;
+    padding: 50px;
+}
+footer p{
+    text-align: center;
+    margin: 0;
+}
+footer p:hover{
+    opacity:.5;
+    background-color: transparent;
+}
+p.caption{
+    color: #999;
+    font-style: italic;
+    margin-top:0;
+
+}
