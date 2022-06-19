@@ -1,28 +1,47 @@
 body{
     font-family: sans-serif, Arial;
-    padding:3px 20px 5px 20px;
+    padding:3px 20px 0px 20px;
+    width: 384px;
+    min-height: 180px;
+    line-height: 20px;
 }
 h1{
-    font-size: 25px;
-    border-radius: 60px;
-    border: 10px solid #f2ea4f;
+    padding-left: 40px;
+    font-weight: 100;
 }
-.title{
-    margin-bottom: 10px;
-}
-h2{
-    font-size: 20px;
-}
-h2{
-    padding-left: 30px;
-}
-p.export{
-    font-size: 15px;
-    padding-left: 20px;
+.alpha{
+    align-items: center;
+    border-bottom: 0.5px solid #dadada;
+    background-color: goldenrod;
+    border-radius: 270px;
+    border: 10px solid #8B762C;
 }
 .logo-icon{
-    margin: 10px 10px;
-    width: 50px;
-    border-radius: 20px;
-    border: 10px solid #f2ea4f;
+    width: 40px;
+    vertical-align: text-bottom;
+    margin-right: 12px;
+}
+h2{
+    padding-left: 20px;
+}
+.ingredients, .instructions{
+    background-color: goldenrod;
+    border-radius: 50px;
+    border: 10px solid #8B762C;
+}
+.space{
+    height: 10px;
+}
+.charlie{
+    padding: 25px 0px 25px 50px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    border: 10px solid #8B762C;
+}
+.charlie i{
+    width: 70px;
+    color:#8B762C;
+}
+.charlie i:hover{
+    color:#493e17;
 }
